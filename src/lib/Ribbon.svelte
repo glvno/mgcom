@@ -7,7 +7,7 @@ export let handleHover: () => void;
 export let handleLeave: () => void;
 
 let showTriumph = () => {
-	triumph.update(_t => ribbonSpecificTriumph)
+	$triumph = ribbonSpecificTriumph;
 
 }
 

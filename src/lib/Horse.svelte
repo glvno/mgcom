@@ -1,11 +1,7 @@
 <script lang="ts">
 	import Ribbon from '$lib/Ribbon.svelte';
 	import { triumph } from '../stores.js';
-	let currTriumph: string;
 	let hideClass="hide";
-	triumph.subscribe((v) => {
-		currTriumph = v;
-	});
 
 let handleHover = (): void => {
 	hideClass = "show"
@@ -21,7 +17,7 @@ let handleLeave = (): void => {
 
 <div class="container" id="horse">
 	<div class="hide-container">
-		<div class={hideClass}>{currTriumph}</div>
+		<div class={hideClass}>{$triumph}</div>
 	</div>
 	<div class="img-container">
 		<img
