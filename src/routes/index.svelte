@@ -3,5 +3,6 @@
 </script>
 
 
+<h1>curriculum vitae</h1>
 <Horse />
 
