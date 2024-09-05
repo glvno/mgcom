@@ -1,25 +1,17 @@
 <script>
-	import Nav from '$lib/Nav.svelte'
-	import "../styles/global.css"
+	import '../app.css';
+	import Nav from '$lib/Nav.svelte';
+	import '../styles/global.css';
 </script>
 
-<div class="container">
+<div class="m-auto flex w-full max-w-[400px] flex-col items-center justify-around px-8 pt-16">
 	<title>michael glaviano</title>
-<Nav />
-	<main>
-	<slot/>	
+	<Nav></Nav>
+	<main class="flex flex-col items-center justify-around pt-8">
+		<slot></slot>
 	</main>
 </div>
 
-
-	<style>
+<style>
 	@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Montserrat:wght@100&display=swap');
-
-	.container {
-		margin-left: 0%;
-		max-width: 100vw;
-	}
-	</style>
-
-
-
+</style>

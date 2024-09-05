@@ -18,9 +18,7 @@
 
 <style>
 	.container {
-		margin-left: 0px;
 		font-family: 'Fira Code', sans-serif;
-		max-width: 100vw;
 	}
 	ul {
 		padding-left: 0px;
@@ -30,8 +28,5 @@
 	}
 	li {
 		margin-right: 10px;
-	}
-	.moi {
-		margin-right: 5vw;
 	}
 </style>
