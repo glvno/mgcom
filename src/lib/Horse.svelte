@@ -18,7 +18,6 @@
 	<div class="img-container">
 		<img
 			src="cv.jpg"
-			alt="A show pony with its face completely obscured by dozens of county fair ribbons"
 		/>
 		<Ribbon
 			{handleLeave}
