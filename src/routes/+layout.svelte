@@ -4,7 +4,7 @@
 	import '../styles/global.css';
 </script>
 
-<div class="m-auto flex w-full max-w-[400px] flex-col items-center justify-around px-8 pt-16">
+<div class="m-auto flex w-full max-w-[500px] flex-col items-center justify-around px-8 pt-16">
 	<title>michael glaviano</title>
 	<Nav></Nav>
 	<main class="flex flex-col items-center justify-around pt-8">

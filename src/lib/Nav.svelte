@@ -1,13 +1,14 @@
 <script>
 	let navLinks = [
 		/* {title: 'home', uri: '/'}, */
+		{ title: 'portfolio', uri: '/portfolio' },
 		{ title: 'contact', uri: '/contact' }
 	];
 </script>
 
 <div class="container">
 	<ul>
-		<a class="moi" href="/">michael glaviano</a>
+		<li><a class="moi" href="/">michael glaviano</a></li>
 		{#each navLinks as link}
 			<li>
 				<a href={link.uri}>{link.title}</a>
@@ -19,14 +20,15 @@
 <style>
 	.container {
 		font-family: 'Fira Code', sans-serif;
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
 	}
 	ul {
-		padding-left: 0px;
 		display: flex;
 		justify-content: space-between;
-		margin-left: 0px;
 	}
 	li {
-		margin-right: 10px;
+		padding: 1em;
 	}
 </style>
