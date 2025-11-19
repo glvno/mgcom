@@ -13,5 +13,5 @@
 </div>
 
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Montserrat:wght@100&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;600;900&family=Montserrat:wght@100;300;600&display=swap');
 </style>

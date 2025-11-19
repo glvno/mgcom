@@ -2,9 +2,15 @@
 	export let item;
 </script>
 
-<li class="flex w-full flex-col">
-	<div>{item.title}</div>
+<li class="flex w-full flex-col gap-3 pb-8">
+	<div class="fira font-bold">{item.title}</div>
 	<img src={item.image} />
+
+	<div class="text-sm">{item.description}</div>
 </li>
 
-<style></style>
+<style>
+	.fira {
+		font-family: 'Fira Code', sans-serif;
+	}
+</style>

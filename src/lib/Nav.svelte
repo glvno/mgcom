@@ -1,14 +1,14 @@
 <script>
 	let navLinks = [
 		/* {title: 'home', uri: '/'}, */
-		{ title: 'portfolio', uri: '/portfolio' },
+		{ title: 'projects', uri: '/projects' },
 		{ title: 'contact', uri: '/contact' }
 	];
 </script>
 
 <div class="container">
 	<ul class="flex items-center">
-		<li class="text-lg font-extrabold"><a class="moi" href="/">michael glaviano</a></li>
+		<li class="font-bold"><a class="moi" href="/">michael glaviano</a></li>
 		{#each navLinks as link}
 			<li>
 				<a href={link.uri}>{link.title}</a>
