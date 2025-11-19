@@ -3,9 +3,26 @@
 	export const hydrate = false;
 
 	let portfolioItems = [
-		{ title: 'cineplex', uri: 'https://github.com/glvno/cineplex', image: '/cineplex.gif' },
-		{ title: 'unleaded.management', uri: 'https://unleaded.management', image: '/unleaded.jpg' },
-		{ title: 'raining.social', uri: '/', image: '/raining.jpg' }
+		{
+			title: 'cineplex',
+			uri: 'https://github.com/glvno/cineplex',
+			image: '/cineplex.gif',
+			description: "The world's least worst video multiplexer, written in Rust"
+		},
+		{
+			title: 'unleaded.management',
+			uri: 'https://unleaded.management',
+			image: '/unleaded.jpg',
+
+			description: "The world's least worst video multiplexer, written in Rust"
+		},
+		{
+			title: 'raining.social',
+			uri: '/',
+			image: '/raining.jpg',
+
+			description: "The world's least worst video multiplexer, written in Rust"
+		}
 	];
 </script>
 

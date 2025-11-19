@@ -7,8 +7,8 @@
 </script>
 
 <div class="container">
-	<ul>
-		<li><a class="moi" href="/">michael glaviano</a></li>
+	<ul class="flex items-center">
+		<li class="text-lg font-extrabold"><a class="moi" href="/">michael glaviano</a></li>
 		{#each navLinks as link}
 			<li>
 				<a href={link.uri}>{link.title}</a>
