@@ -2,6 +2,7 @@
 	let navLinks = [
 		/* {title: 'home', uri: '/'}, */
 		{ title: 'projects', uri: '/projects' },
+		{ title: 'endorsements', uri: '/endorsements' },
 		{ title: 'contact', uri: '/contact' }
 	];
 </script>
