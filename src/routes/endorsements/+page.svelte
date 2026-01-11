@@ -7,7 +7,8 @@
 		{ url: '/endorsements/2.jpeg' },
 		{ url: '/endorsements/3.jpeg' },
 		{ url: '/endorsements/4.jpeg' },
-		{ url: '/endorsements/5.jpeg' }
+		{ url: '/endorsements/5.jpeg' },
+		{ url: '/endorsements/6.jpeg' }
 	];
 </script>
 
